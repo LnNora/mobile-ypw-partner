@@ -1,0 +1,41 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color:  #f9f9f9;
+}
+
+/*头部*/
+.header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem 3rem 1rem 3rem;
+	background-color: white;
+}
+.header p{
+	margin: 0
+}
+.common_shop{
+	width: 4rem;
+	height: 4rem;
+	margin-bottom: 1rem;
+}
+
+/*输入框*/
+.form{
+}
+
+label,input{
+	display: block;
+}
+label{
+	margin-bottom: 0.5rem;
+}
+
+input{
+	border: solid 1px #ededed;
+	border-radius: 5px;
+	padding: 0.8rem 0;
+	width: 80%;
+}
