@@ -1,0 +1,97 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f9f9f9;
+}
+
+.s1{
+		font-size: 1.1rem;
+}
+.s2{
+	font-size: 0.9rem;
+}
+.button{
+	display: block;
+	border: none;
+	background-color: #d43b33;
+	color: white;
+	width: 100%;
+	margin-top: 1.5rem;
+	padding: 0.8rem 0;
+	border-radius: 5px;
+	-webkit-appearance:none;
+}
+
+/*筛选条件*/
+.search{
+	margin-top: 0.8rem;
+	padding: 0 1rem 1.5rem 1rem;
+	background-color: white;
+}
+.filter{
+	display: flex;
+	align-items: center;
+	border-bottom: solid 1px #f0f0f0;
+	position: relative;
+}
+.date,.time{margin: 0}
+.filter h1{
+	color: #989898;
+	font-weight: lighter;
+}
+.date{
+	margin-right: 1rem;
+}
+
+.filter:after{
+	content: "";
+	display: inline-block;
+	height: 1.2rem;
+	width: 1.2em;
+	background-image: url('../images/arrow_r.png');
+	background-size: cover;
+	position: absolute;
+	top: 1rem;
+	right: 0;
+}
+
+/*查询数据*/
+.teble{
+	background-color: white;
+}
+.summary{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 1rem;
+}
+.summary h1{
+	font-weight: lighter;
+}
+
+.item{
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+	position: relative;
+	border-bottom: solid 1px #f0f0f0;
+}
+.item_img{
+	height: 3rem;
+	width: 3rem;
+	margin-right: 1rem;
+}
+.item_info p{
+	margin:0;
+}
+.price{
+	margin: 0;
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+}
+.item_name{
+	line-height: 1.5rem;
+}
+.count{
+	color: #9c9c9c;
+}

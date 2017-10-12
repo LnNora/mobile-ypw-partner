@@ -4,13 +4,16 @@ body{
 	padding: 0;
 	background-color:  #f9f9f9;
 }
+.s1{
+		font-size: 1.1rem;
+}
 
 /*头部*/
 .header{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 2rem 3rem 1rem 3rem;
+	padding: 1.5rem 3rem 0.8rem 3rem;
 	background-color: white;
 }
 .header p{
@@ -24,6 +27,7 @@ body{
 
 /*输入框*/
 .form{
+	padding-top: 1.5rem;
 }
 
 label,input{
@@ -31,6 +35,8 @@ label,input{
 }
 label{
 	margin-bottom: 0.5rem;
+	margin-left: 2.3rem;
+	color: #4b4b4b;
 }
 
 input{
@@ -38,4 +44,35 @@ input{
 	border-radius: 5px;
 	padding: 0.8rem 0;
 	width: 80%;
+	margin: 0 auto;
+	-webkit-appearance:none;
 }
+
+.in{
+	text-indent: 1rem;
+	color: #ededed;
+
+}
+.button{
+	display: block;
+	border: none;
+	background-color: #d43b33;
+	color: white;
+	padding: 0.8rem 0;
+	border-radius: 5px;
+	-webkit-appearance:none;
+	margin-top: 2rem;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #ededed;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #ededed;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #ededed;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #ededed;
+}
+

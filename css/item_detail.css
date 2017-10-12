@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f9f9f9;
+}
+
+.s1{
+	font-size: 1.12rem;
+}
+.s2{
+	font-size: 0.92rem;
+	color: #989898;
+}
+
+p{
+	margin: 0;
+	line-height: 1.4rem;
+}
+.phone{
+	margin: 0 0 0.5rem 0;
+	border-left: solid #d43d30;
+	line-height: 1rem;
+	padding-left: 0.8rem;
+	font-weight: lighter;
+}
+
+.detail{
+	background-color: white;
+	padding:0.5rem 0;
+	margin: 0.5rem 1rem;
+	border-radius: 5px;
+}
+.detail>p{
+	margin-left: 1rem;
+}
+.good{
+	margin-right: 1.2rem;
+}
+.good,.code{
+	display: inline-block;
+}
